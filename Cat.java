@@ -13,10 +13,10 @@ public class Cat {
         if (plate.getFood() >= appetite) {
             plate.setFood(plate.getFood() - appetite);
             fullness = true;
-            System.out.println(name + " ate " + appetite + " Полно еды");
+            System.out.println(name + " поел(а) " + appetite + " - "  + " Полно еды");
         } else {
             System.out.println(
-                    name + " wants to eat " + appetite + " Не хватает еды.");
+                    name + " хочет кушать " + appetite + " - "  + " Не хватает еды.");
         }
     }
 

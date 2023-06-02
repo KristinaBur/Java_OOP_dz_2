@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat("Barsik", 5);
-        Cat cat2 = new Cat("Marsik", 7);
-        Cat cat3 = new Cat("Persik", 10);
-        Cat cat4 = new Cat("Shurik", 3);
-        Cat cat5 = new Cat("Zmurik", 6);
-        Cat cat6 = new Cat("Nulik", 5);
+        Cat cat1 = new Cat("Барсик", 15);
+        Cat cat2 = new Cat("Васька", 7);
+        Cat cat3 = new Cat("Мила", 10);
+        Cat cat4 = new Cat("Жорик", 3);
+        Cat cat5 = new Cat("Мурзилка", 8);
+        Cat cat6 = new Cat("Матроскин", 5);
 
         Cat[] catsArray = new Cat[] { cat1, cat2, cat3, cat4, cat5, cat6 };
 
@@ -19,7 +19,7 @@ public class Main {
 
 
         plate.info();
-        plate.addFood(10);
+        plate.addFood(20);
         plate.info();
 
 
