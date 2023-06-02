@@ -11,7 +11,7 @@ public class Plate {
 
     public void setFood(int food) {
         if (food < 0)
-            System.out.println("Error: Количество еды не может быть отрицательным.");
+            System.out.println("Ошибка: Количество еды не может быть отрицательным.");
         else
             this.food = food;
     }
